@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: 'Baloo Bhai 2', 'cursive';
+    box-sizing: border-box;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 18px;
+
+
+}
+
+.left img {
+    width: 100px;
+    border-radius: 50px;
+
+
+}
+
+.left div {
+    text-align: center;
+    color: white;
+}
+
+
+.center {
+    display: block;
+    width: 45%;
+    margin: 18px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 18px;
+}
+
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(0, 255, 238);
+    font-size: 22px;
+}
+
+#search {
+    height: 44px;
+    width: 236px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    font-family: 'Baloo Bhai 2', 'cursive';
+    text-align:center;
+}
+
+.btn {
+    /* margin: 30px 20px; */
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: rgb(30, 201, 210);
+    border-radius: 500px;
+    color: black;
+
+}
+
+.btn:hover {
+    background-color: rgb(0, 255, 238);
+
+
+}
+
+.form {
+    margin: 100px auto;
+    padding: 30px 30px;
+    width: 35%;
+    border-radius: 25px;
+    background-color: rgb(94, 99, 99);
+    font-family: 'Baloo Bhai 2', 'cursive';
+
+}
+
+.h1 {
+    color: rgb(219, 219, 219);
+    text-align: center;
+}
+
+
+.group input {
+    text-align: center;
+    width: 285px;
+    display: block;
+    margin: 7px auto;
+    padding: 4px 4px;
+    border: 2px solid grey;
+    font-size: 14px;
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    /* padding: 4px; */
+    font-family: 'Baloo Bhai 2', 'cursive';
+
+}
+
+.form button {
+    display: block;
+    margin: 2px auto;
+    background-color:rgb(30, 201, 210);
+    padding: 7px 32px;
+    border: none;
+    width: 285px;
+    border-radius: 10px;
+    font-family:'Baloo Bhai 2', 'cursive';
+
+}
+.form button:hover{
+    background-color: rgb(0, 255, 238);
+
+}
